@@ -1,0 +1,13 @@
+1. Declare variables to store your name, favorite number, and a boolean value representing if you like cats.
+
+2. Assign values to these variables and print them to the console using console.log.
+
+3. Try performing simple calculations using your variables (e.g., add your age to your favorite number).
+
+4. Create a variable to store a greeting message (string)
+
+5. Write a program that calculates the area of a triangle (area = 0.5 * base * height).
+
+6. Create variables to store two exam scores and compare them using operators to determine if the average is greater than 80.
+
+7. Challenge yourself with a program that prompts the user for their age using prompt and then checks if they are eligible to vote (age >= 18).
