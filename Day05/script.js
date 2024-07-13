@@ -1,12 +1,12 @@
-// let age = prompt("Enter your age?");
-// if(age <= 18){
-//     console.log("You can drive your car")
-// }
-// else{
-//     console.log("Bhag ja, jaake pahle padhai kar le!")
-// }
+let age = prompt("Enter your age?");
+if(age <= 18){
+    console.log("You can drive your car")
+}
+else{
+    console.log("Bhag ja, jaake pahle padhai kar le!")
+}
 
-/*
+
 // Q1. Write a program that check if a number is even or odd using an if/else statement.
 
 
@@ -21,9 +21,9 @@ function checkEvenOdd(userNumber){
 
 const num = prompt("Enter your number to check even or odd!");
 checkEvenOdd(num);
-*/
 
-/*
+
+
 // Q.2  Else If ---> Create a program that prompt the user for grade and then use if/else/else if to display corresponding message(eg. A-> Excellent, B-> Very Good, C-> Good, D-> Average, F-> Babuji ka paisa mat barbad karo, jaakar kheti kar lo bhaut scope hain)
 
 function checkGrade(){
@@ -50,11 +50,11 @@ function checkGrade(){
 
 checkGrade();
 
-*/
+
 
 // Q.3 A program that simulates a simple vending machine. Allow user to choose a product(using if/else if for multiple condition) and display that corresponding price.
 
-/*
+
 // Switch case
 let day = prompt("Select your day");
 
@@ -84,10 +84,9 @@ switch (day) {
         console.log("Invalid day");
 }
 
-*/
 
 
-/*
+
 // Q.1 Write a program that uses a switch statement to evaluate a letter grade(A,B,C,D,F) and display the corresponding meaning(eg.Excellent for A...)
 
 
@@ -117,10 +116,9 @@ function checkGradeMeaning(grade) {
 
 checkGradeMeaning(prompt("Select your grade"));
 
-*/
 
 
-/*
+
 // Q.2 Create a program that simulates a simple traffic light. Use a switch statement on a variable representing the light's color (red, yellow & green) to display related messages(Stop, Ready, Go respectively.)
 
 function trafficLight(color) {
@@ -143,11 +141,11 @@ function trafficLight(color) {
 
 trafficLight(prompt("Select Color to Display message from red, green, yellow"));
 
-*/
+
 
 // Q.3  A program that prompts the user for their favorite fruit using prompt and then uses a switch statement with multiple cases to display a fun fact about that fruit.(if a match is not found, default your favorite fruit is not in our list, we will add soon.)
 
-/*
+
 // Function
 
 function greet(name) {
@@ -160,9 +158,9 @@ greet(prompt("Please enter your name!"));
 greet(prompt("Please enter your name!"));
 greet(prompt("Please enter your name!"));
 
-*/
 
-/*
+
+
 // Q.2  Create a function that check if a number is positive, negative or zero. Use an if/else statement within the function and return the appropiate message.
 
 function checkNumberSign(number){
@@ -185,7 +183,7 @@ console.log(checkNumberSign(prompt("Enter your number to check it is positive, n
 // console.log(checkNumberSign(num2));
 // console.log(checkNumberSign(num3));
 
-*/
+
 
 // Q.2  Write a function that calculate the area of a rectangle, taking length and width as parameters. Call the function with different values to test it.
 
